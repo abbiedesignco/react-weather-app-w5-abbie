@@ -5,8 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-container">
-        <h1>React Weather App</h1>
-        <Weather />
+        <Weather defaultCity="Montreal" />
         <footer>
           This project was coded by{" "}
           <a
