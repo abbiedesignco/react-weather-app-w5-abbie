@@ -1,10 +1,12 @@
-import "./App.css";
+import React from "react";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
       <div className="App-container">
         <h1>React Weather App</h1>
+        <Weather />
         <footer>
           This project was coded by{" "}
           <a
